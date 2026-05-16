@@ -1,0 +1,23 @@
+<resources>
+
+    
+    <string name="hint_nombre">Nombre del interesado</string>
+    <string name="hint_direccion">Dirección</string>
+    <string name="hint_colonia">Colonia</string>
+    <string name="hint_celular">Celular</string>
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="hint_tipo">Tipo de reporte</string>
+    <string name="hint_descripcion">Descripción</string>
+    <string name="hint_imagen">Tomar Foto</string>
+    
+
+    <string-array name="tipos_reporte">
+        <item>ALUMBRADO PÚBLICO</item>
+        <item>ANIMALES CALLEJEROS O EN SITUACIÓN DE ABANDONO</item>
+        <item>BACHES</item>
+        <item>BASURA O ESCOMBRO</item>
+        <item>FUMIGACIÓN O PLAGAS</item>
+        <item>FUGAS O DRENAJE</item>
+        <item>OTRO ASUNTO</item>
+    </string-array>
+</resources>

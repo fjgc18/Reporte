@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ContactoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Información de Contacto"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guaymas, Sonora"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_border"
+            android:layout_marginBottom="0dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnMapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mapa"
+            app:cornerRadius="0dp"
+            android:layout_marginBottom="24dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="contacto@guaymas.com"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_border"
+            android:layout_marginBottom="0dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar correo"
+            app:cornerRadius="0dp"
+            android:layout_marginBottom="24dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6221234567"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:background="@drawable/bg_border"
+            android:layout_marginBottom="0dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLlamar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Llamar"
+            app:cornerRadius="0dp"
+            android:layout_marginBottom="24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNavReporte"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="REPORTE" />
+
+        <Button
+            android:id="@+id/btnNavContacto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CONTACTO" />
+
+    </LinearLayout>
+
+</LinearLayout>
